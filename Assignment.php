@@ -28,7 +28,7 @@
  		$split_note= explode(' ',$this->note);
  		$lowest="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
  		foreach ($split_note as $x) {
-			if (strlen($x)<$lowest) {
+			if (strlen($x)<strlen($lowest)) {
 			  $lowest=$x;
 			}
     
